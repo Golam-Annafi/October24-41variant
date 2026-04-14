@@ -46,6 +46,7 @@ def Bubble(array):
                 array[y], array[y+1] = array[y+1], array[y]
     return array
 
+#1.d.ii
 sorted = Bubble(stored_array)
 sorted_format = FormatArray(sorted)
 print(sorted_format)
